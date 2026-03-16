@@ -27,7 +27,7 @@ Class.forName("com.mysql.cj.jdbc.Driver");
 Connection con=DriverManager.getConnection(
 "jdbc:mysql://localhost:3306/god",
 "root",
-"root123");
+"yourpass");
 
 Statement st=con.createStatement();
 
