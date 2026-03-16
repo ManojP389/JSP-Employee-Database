@@ -29,7 +29,7 @@ Class.forName("com.mysql.cj.jdbc.Driver");
 Connection con = DriverManager.getConnection(
 "jdbc:mysql://localhost:3306/god",
 "root",
-"root123");
+"yourpass");
 
 PreparedStatement ps = con.prepareStatement(
 "INSERT INTO employees VALUES(?,?,?,?,?)");
